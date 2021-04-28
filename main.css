@@ -1,29 +1,100 @@
+html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  body {
+      line-height: 1;
+  }
+  ol, ul {
+      list-style: none;
+  }
+  blockquote, q {
+      quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: '';
+      content: none;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+
 body {
   background-color: aqua;
+  background: url(assets/digital-blue-dna-biotechnology-future-of-health-shutterstock-750726223-1068x601.jpeg);
+  background-size: cover;
+}
+
+.welcome-side {
+  display: flex;
+  
 }
 
 .name-card {
-  background-color: blueviolet;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% auto;
+  height: 50%;
+  width: 50%;
+  border: 3px solid green; 
+ 
 }
 
-.welcome-part {
-  background-color: antiquewhite;
-  width: 95%;
-  height: 100%;
-}
 
 .left-part {
-  background-color: brown;
   float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50%;
-  height: 100vh;
+  height: 60vh;
+  color: aliceblue;
+  border: 3px solid yellow;
+  
   
 }
 
 .right-part {
-  background-color: firebrick;
   float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50%;
-  height: 100vh;
+  height: 60vh;
+  border: 3px solid orange;
+  color: antiquewhite;
+  flex-wrap: wrap;
+  
+}
+
+img {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
 }
