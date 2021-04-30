@@ -74,11 +74,12 @@ h1 {
 
 h3 {
   font-size: 1.25rem;
-  margin-left: 10rem;
+  margin-left: 9.5rem;
 }
 
 h2 {
   margin-left: 10.3rem;
+  text-decoration: underline;
 }
 
 
