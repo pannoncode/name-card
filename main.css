@@ -155,7 +155,7 @@ i:hover {
   filter: drop-shadow(10px 10px 7px gray);
 }
 
-/* Display break 600px-970px */
+/* Display break 768px-1024px */
 
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
@@ -204,7 +204,7 @@ i:hover {
   }
 }
 
-/*Display break 384px-600px*/
+/*Display break 384px-768px*/
 
 @media (min-width: 384px) and (max-width: 768px){
   body {
@@ -243,6 +243,11 @@ i:hover {
   
   h1, h2, h3, .links, img {
     margin-left: 0;
+  }
+ 
+  
+  li {
+    padding-left: 3rem;
   }
   
   p {
