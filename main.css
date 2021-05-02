@@ -235,9 +235,11 @@ img {
    display: flex;
    justify-content: center;
    align-items: center;
+   max-width: 100%;
    
   }
   .name-card {
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
